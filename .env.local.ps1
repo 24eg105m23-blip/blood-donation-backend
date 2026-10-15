@@ -1,0 +1,5 @@
+$env:DB_USERNAME = "root"
+$env:DB_PASSWORD = "root"
+$env:DB_URL = "jdbc:mysql://localhost:3306/blood_donation_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+$env:CORS_ORIGIN = "http://localhost:5173"
+$env:SAMPLE_DATA_ENABLED = "true"
